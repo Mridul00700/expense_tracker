@@ -9,6 +9,7 @@ import './App.css';
 import { GlobalProvider } from './context/GlobalState';
 
 function App() {
+  console.log("test");
   return (
     <GlobalProvider>
       <Header/>
